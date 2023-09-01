@@ -15,9 +15,10 @@ public class Practice06 {
 		
 		//그 사이의 숫자를 모두 출력
 		System.out.println(start + "부터"+ end + "까지 숫자");
-		for (int i = start; i<= end;i++);{
+		for (int i = start; i<= end;i++){
 			System.out.println(i);
 		}
+		
 
 	}
 

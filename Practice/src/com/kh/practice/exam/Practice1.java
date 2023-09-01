@@ -20,7 +20,7 @@ public class Practice1 {
 			//1부터 그숫자까지의 숫자들을 모두 출력하세요.
 			int i = 0;
 			for (i = 1; i<=num; i++);{
-				System.out.println("어떤숫자");
+				System.out.println(i);
 
 			}
 
