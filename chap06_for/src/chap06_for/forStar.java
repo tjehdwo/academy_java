@@ -30,9 +30,9 @@ public class forStar {
 			 } else {
 				 System.out.print(" ");
 			 }
-			 System.out.println(); //¡ŸπŸ≤ﬁ
+			
 		 }
-		  
+		 System.out.println(); //¡ŸπŸ≤ﬁ
 	  }
 	  
 
