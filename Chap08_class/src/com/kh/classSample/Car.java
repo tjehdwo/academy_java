@@ -14,7 +14,7 @@ public class Car {
     public Car(String brand, String model) { // 차를 볼 때 필수로 넣을 파라미터는 브랜드와 모델입니다.
     	this.brand = brand;
     	this.model = model;
-    	this.speed = 0;
+    	this.speed = 100;
     	this.engineOn = true;
     	System.out.println("Car 정의");
     }
@@ -22,6 +22,7 @@ public class Car {
     // 엔진 시작 메서드
     public void startEngine() { //
     	//만약에 엔진이 true 엔진 시동
+    	System.out.println("차종은 : "+brand +"입니다.");
     	if(engineOn) {
     		System.out.println("엔진을 시동합니다."); //출력 메소드 작성
     	}else {
@@ -33,7 +34,8 @@ public class Car {
     public void acclerate(int amount) {
     	if(engineOn) {
     		//엔진이 true면 지금 속도가 얼마다.
-    		System.out.println("속도 얼마입니다.");
+    		speed += amount;
+    		System.out.println(amount +"속도"+speed+"입니다.");
     	}else {
     		System.out.println("속도를 알 수 없음.");
     	}
