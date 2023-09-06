@@ -9,7 +9,8 @@ public class GoodPlayer {
 	//검증하는 valid
 	public void ValidName() {  //캐릭터이름에 공백이 없는지 검증!
 		if(this.name == "") {
-			System.out.println("이름을 넣지 않았습니다.");
+			this.name = "No name";
+			//System.out.println("이름을 넣지 않았습니다.");
 		}
 	}
 	public String getName() { //캐릭터 이름을 반환
@@ -46,6 +47,22 @@ public class GoodPlayer {
 	public int getAttackPower() {
 		return attackPower;
 	}
+	//출력메소드 작성
+	public void displayInfo() {
+		System.out.println("캐릭터 정보 : "+ this.name);
+		System.out.println("체력 정보 : "+this.health);
+		System.out.println("공격 파워 : "+this.attackPower);
+	}
+	//캐릭터 공격하는 출력 메서드
+		public void attack(GoodPlayer target) {
+			System.out.println("["+name+"]"+ "(은)는 공격했습니다. "+"["+ target.getName()+"]"+"한테 "+attackPower+ " 데미지를 줬습니다.");
+			
+		}
+		
+		//다른 캐릭터로부터 공격 받았을 때 메서드
+		public void takeDamage(int damage) {
+			System.out.println("공격 받았습니다.");
+		}
 }
 	
 	
