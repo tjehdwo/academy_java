@@ -1,4 +1,4 @@
-package com.kh.operator;
+	package com.kh.operator;
 
 public class Ternary {
 
