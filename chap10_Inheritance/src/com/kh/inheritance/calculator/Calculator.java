@@ -19,7 +19,10 @@ public class Calculator {
 	}
 	//4. 나누기
 	public int divide() {
-		return num1 / num2;
+		if(num2 == 0) {
+			System.out.println("0으로 나눌 수 없습니다.");
+			return 0;
 	}
-
+		return num1/num2;
+	}
 }
