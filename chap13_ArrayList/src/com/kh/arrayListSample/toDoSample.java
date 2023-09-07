@@ -14,7 +14,6 @@ public class toDoSample {
 
 	public static void main(String[] args) {
 		ArrayList<String> toDoSample = new ArrayList();
-		System.out.println("해야할 일 : " + toDoSample);
 		
 		toDoSample.add("코딩");
 		toDoSample.add("빨래");
