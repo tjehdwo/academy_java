@@ -9,12 +9,15 @@ public class CalculatorRun extends Calculator{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("첫번째 숫자 :");
 		int num1 = sc.nextInt();
+		System.out.println("두번째 숫자 : ");
 		int num2 = sc.nextInt();
 		CalculatorForMod cal = new CalculatorForMod();
 		System.out.println("add = "+ cal.add());
 		System.out.println("mul = "+ cal.multiply());
-		System.out.println("mod = " + cal.mod());
+		System.out.println("mod = " + cal.mod(5,10));
 		
+		
+	
 	}
 }
 		/*Calculator cal = new Calculator();
@@ -51,7 +54,12 @@ public class CalculatorRun extends Calculator{
 		System.out.println("div : "+ result4);
 
 	}
-*
+*	int result1 = cal.add();
+		int result2 = cal.multiply();
+		int result3 = cal.mod(5,10);
+		System.out.println("add : "+ result1);
+		System.out.println("mul : "+ result2);
+		System.out.println("mod : "+ result3);
 *
 */
 
