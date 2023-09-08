@@ -29,17 +29,13 @@ public class forHomeWork {
 		Integer thirdNumber = numbers.get(2);
 		Integer fourthNumber = numbers.get(3);
 		Integer fifthNumber = numbers.get(4);
-	
+		
+		int sum = 0;
 		for (int number : numbers) {
-			if (number == 5) {
-				System.out.println(numbers.get(0)+numbers.get(1)+numbers.get(2)+numbers.get(3)+numbers.get(4));
-				
-			}else { 
-				System.out.println("");
-				
-			}
+			sum += number;
+		}
+		System.out.println("모든 배열의 합 : "+ sum);
+		} 
 			
-		}	
 	}
 
-}

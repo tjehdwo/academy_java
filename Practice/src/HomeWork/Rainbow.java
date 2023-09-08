@@ -28,9 +28,10 @@ public class Rainbow {
 		for (String rainbows : rainbow) {
 			System.out.println(rainbows);
 		}
-		rainbow.add("»¡°­");
+		/*rainbow.add("»¡°­");
 		rainbow.add("ÆÄ¶û");
 		System.out.println("»¡°­ ÆÄ¶û ´Ù½Ã Ãß°¡ : " + rainbow);
+		*/
 		
 		rainbow.clear();
 		rainbow.add("»¡°­");
