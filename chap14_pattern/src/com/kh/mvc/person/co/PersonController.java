@@ -3,6 +3,7 @@ package com.kh.mvc.person.co;
 import com.kh.mvc.person.mo.PersonModel;
 import com.kh.mvc.person.vo.PersonView;
 
+
 public class PersonController {
 	private PersonModel personmodel;
 	private PersonView personview;
@@ -32,7 +33,7 @@ public class PersonController {
 	}
 	
 	public void updateView() {
-		personmodel.displayInfo(personmodel.getName(),personmodel.getAge(),personmodel.getGender());
+		personview.displayInfo(personmodel.getName(),personmodel.getAge(),personmodel.getGender());
 	}
 
 	}

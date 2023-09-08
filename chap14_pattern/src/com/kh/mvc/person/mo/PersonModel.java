@@ -30,14 +30,7 @@ public class PersonModel {
 	public char getGender() {
 		return gender;
 	}
-	public void displayInfo(String name,int age,char gender) {
-		this.name = name;
-		this.age = age;
-		this.gender = gender;
-		System.out.println("이름 : "+ name);
-		System.out.println("나이 : "+ age);
-		System.out.println("성별 : "+ gender);
-	}
+
 	
 	
 }
