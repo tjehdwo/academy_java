@@ -8,8 +8,9 @@ public class PersonController {
 	private PersonModel personmodel;
 	private PersonView personview;
 	
-	public PersonController(PersonModel model,PersonView view) {
-		this.personmodel = model;
+	public PersonController(PersonModel personmodel,PersonView personview) {
+		this.personmodel = personmodel;
+		this.personview = personview;
 	}
 	
 	public void setPersonName(String name) {
@@ -35,5 +36,4 @@ public class PersonController {
 	public void updateView() {
 		personview.displayInfo(personmodel.getName(),personmodel.getAge(),personmodel.getGender());
 	}
-
-	}
+}
