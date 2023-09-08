@@ -1,6 +1,7 @@
 package com.kh.pattern.mvc.Controller;
 
 import com.kh.pattern.mvc.Model.UserModel;
+
 import com.kh.pattern.mvc.View.UserView;
 
 public class UserController {
@@ -12,24 +13,32 @@ public class UserController {
 	private UserView userview;
 	
 	
-	public void setView(UserView view) {
-		this.userview = userview;
-	}
-	public void setModel(UserModel model) {
-		this.usermodel = usermodel;
-	}
-	
-	public UserModel getModel() {
-		return usermodel;
-	}
-	public UserView getView() {
-		return userview;
-	}
-
-
-	public UserController(UserModel model,UserView view) {
+	public UserController(UserModel usermodel,UserView userview) {
 		this.usermodel = usermodel;
 		this.userview = userview;
 		
 	}
+	public void setUserName(String name) {
+		//this.userview = userview;
+		usermodel.setName(name);
+	}
+	public void setUserAge(int age) {
+		//this.usermodel = usermodel;
+		usermodel.setAge(age);
+	}
+	
+	public String getUserName() {
+		return usermodel.getName();
+	}
+	public int getUserAge() {
+		return usermodel.getAge();
+	}
+	
+	public void updateView() {
+		userview.displayInfo(usermodel.getName(),usermodel.getAge());
+	}
+	
+	
+
+	
 }
