@@ -13,9 +13,9 @@ public class Practice9 {
 		System.out.println("숫자를 입력하세요 : ");
 		int num = sc.nextInt();
 		
-		for() {
+		//for() {
 			
-		}
+		//}
         System.out.println("1부터 합 출력하기");
 	}
 
