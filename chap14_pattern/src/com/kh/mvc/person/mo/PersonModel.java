@@ -4,11 +4,19 @@ public class PersonModel {
 	private String name;
 	private int age;
 	private char gender;
+	private int number;
 	
 	public PersonModel(String name,int age,char gender) {
 		this.name = name;
 		this.age = age;
 		this.gender = gender;
+		this.number = number;
+	}
+	public void isValidNumber() {
+		if (this.number == 0) {
+			System.out.println("숫자가 안들어왔습니다.");
+		}
+		
 	}
 	public void setName(String name) {
 		this.name = name;

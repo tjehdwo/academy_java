@@ -13,7 +13,7 @@ public class PersonMain {
 		
 		PersonController controller = new PersonController(model,view);
 		
-		controller.updateView();
+
 		
 		controller.setPersonName("±è°³¶Ë");
 		controller.setPersonAge(27);
