@@ -85,8 +85,16 @@ public class ArrayEaxm {
 	    	}
 	    	System.out.println();
 	    }
+	    System.out.println("==2분단==");
+	    for(int i = 0;i<seat2.length;i++) {
+	    	for(int j = 0;j<seat2[i].length;j++) {
+	    		System.out.print(seat2[i][j] + " ");
+	    	}
+	    	System.out.println();
+	    }
 		
 	}
+	
 }
 		
 /*printf("출력 서식",출력할 내용);
