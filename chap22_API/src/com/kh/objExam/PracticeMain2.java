@@ -11,7 +11,7 @@ public class PracticeMain2 {
 		StringBuffer sb = new StringBuffer();
 		sb.append("¿À´Ã ");
 		sb.append("Àú³áÀº ¹¹¸ÔÁö?");
-		System.out.println(sb);
+		System.out.println(sb.toString());
 	}
 	public void practice2() {
 		//¹®ÀÚ¿­ µÚÁı±â
@@ -19,7 +19,7 @@ public class PracticeMain2 {
 		sb.append("¿À´Ã ");
 		sb.append("Àú³áÀº ¹¹¸ÔÁö");
 		sb.reverse();
-		System.out.println(sb);
+		System.out.println(sb.toString());
 		
 	}
 	public void practice3() {
@@ -28,7 +28,7 @@ public class PracticeMain2 {
 		sb.append("¿À´Ã ");
 		sb.append("Àú³áÀº ¹¹¸ÔÁö");
 		sb.insert(10, "? ¤¾¤¾");
-		System.out.println(sb);
+		System.out.println(sb.toString());
 	}
 	public void practice4() {
 		//¹®ÀÚ¿­ ´ëÃ¼ replace
@@ -36,7 +36,7 @@ public class PracticeMain2 {
 		sb.append("¿À´Ã ");
 		sb.append("Àú³áÀº ¹¹¸ÔÁö");
 		sb.replace(6,10," ÇØ»ê¹° Áß¿¡ ¹¹¸ÔÁö? ¤¾¤¾");
-		System.out.println(sb);
+		System.out.println(sb.toString());
 	
 	
 	}	
