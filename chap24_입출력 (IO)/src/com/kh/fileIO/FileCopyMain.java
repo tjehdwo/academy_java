@@ -9,7 +9,7 @@ public class FileCopyMain {
 
 	public static void main(String[] args) {
 		String inputFile = "C:\\Users\\user1\\Desktop\\cute.png";
-		String outputFile ="C:\\User\\user1\\Desktop\\RealCute.jpg";
+		String outputFile ="C:\\Users\\user1\\Desktop\\RealCute.jpg";
 		
 		try (FileInputStream fis = new FileInputStream(inputFile);
 				FileOutputStream fos = new FileOutputStream(outputFile)){
