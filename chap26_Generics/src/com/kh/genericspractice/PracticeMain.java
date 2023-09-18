@@ -50,7 +50,7 @@ public class PracticeMain {
 		printBox(intBox);
 		}
 		public static <T> void printBox(Box<T> intbox ) {
-			for (T item:intbox) {
+			for (T item:) {
 				System.out.println(item);
 				
 			}
