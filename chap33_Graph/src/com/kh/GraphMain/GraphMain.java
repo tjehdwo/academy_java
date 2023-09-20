@@ -1,10 +1,12 @@
 package com.kh.GraphMain;
 
+import com.kh.Practice.DFSGraph;
+
 public class GraphMain {
 
 	public static void main(String[] args) {
 		int ver = 5;
-		Graph graph = new Graph(ver);
+		DFSGraph graph = new DFSGraph(ver);
 		
 		graph.addEdge(0,1); //노드 0에서 노드1로 방향이 있는 엣지를 추가
 		graph.addEdge(0,2); //노드 0에서 노드2로 방향이 있는 엣지를 추가
