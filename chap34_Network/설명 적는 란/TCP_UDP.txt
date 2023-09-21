@@ -1,6 +1,7 @@
 TCP와 UDP
 	네트워크 통신 프로토콜 중 두가지 중요한 프로토콜
 	컴퓨타간 데이터 통신을 가능하게 함
+	
 	TCP(Transmission Control Protocol):
 		연결 지향적 프로토콜
 		데이터를 보내거나 받을 때 먼저 연결을 설정
