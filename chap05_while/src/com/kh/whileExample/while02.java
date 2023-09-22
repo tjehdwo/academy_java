@@ -2,7 +2,7 @@ package com.kh.whileExample;
 
 import java.util.Scanner;
 
-public class while2 {
+public class while02 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
